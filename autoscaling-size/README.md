@@ -29,3 +29,4 @@ opa eval -i tfplan.json -d asg_min_size_limit.rego "data.main.deny" --format pre
 
 # View Full ASG Fleet Audit
 opa eval -i tfplan.json -d asg_min_size_limit.rego "data.main.analysis" --format pretty
+```
